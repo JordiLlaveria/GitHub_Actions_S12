@@ -1,4 +1,3 @@
-etc/build.sh
 src/routes/users.ts
 src/utils/loggers.ts
 src/routes/index.ts
