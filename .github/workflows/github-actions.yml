@@ -15,5 +15,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
             node-version: 4
+<<<<<<< HEAD
       - name: Run Super-Linter
         uses: github/super-linter@v3.15.5
+=======
+      - name: Super-Linter
+        uses: github/super-linter@v4.9.2
+        env: 
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+>>>>>>> df60833047b382027376d2cc057ce9132bec6ccd
