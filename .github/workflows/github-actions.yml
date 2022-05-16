@@ -14,7 +14,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v1
         with:
-            node-version: 2
+            node-version: 4
       - name: Run Super-Linter
         uses: github/super-linter@v3
         env:
